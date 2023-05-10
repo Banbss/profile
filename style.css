@@ -1,0 +1,85 @@
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  background-color: #F1F6F9;
+  color: #394867;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #212A3E;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #212A3E;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #394867;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: goldenrod;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+
+.white-card {
+  background: white;
+  padding: 45px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px auto;
+}
+
+#social.white-card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px auto;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.button-blue {
+  border: 2px solid #394867;
+  border-radius: 20%;
+}
+
+@media (max-width: 915px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 390px;
+  }
+}
