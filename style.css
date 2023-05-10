@@ -55,6 +55,7 @@ a:hover {
 }
 
 #profile-pic {
+  width: 50%;
   border-radius: 50%;
 }
 
